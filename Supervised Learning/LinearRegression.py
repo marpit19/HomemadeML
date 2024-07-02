@@ -1,15 +1,12 @@
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn import datasets
-import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
-from numpy.random import randn
-import random
-from IPython.core.display import display_jpeg, Image
-from string import Template
-import IPython.display
-import warnings
+import sys
+import os
 
+# Ensure the config directory is in the system path
+current_dir = os.path.dirname(__file__)
+config_dir = os.path.abspath(os.path.join(current_dir, '..', 'config'))
+sys.path.append(config_dir)
+
+from config.imports import *
 
 class LinearRegression:
 
