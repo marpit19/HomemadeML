@@ -31,14 +31,6 @@ HomemadeML is a repository dedicated to implementing machine learning algorithms
 
     Each algorithm may include example scripts or notebooks to demonstrate usage and functionality. Dive in and start experimenting!
 
-## Examples
-
-![HomemadeML Example](homemade_ml_example.png)
-
-## Contributing
-
-Contributions are welcome! Whether you're fixing a bug, implementing a new algorithm, or improving documentation, your contributions are appreciated. Please open an issue or submit a pull request.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
